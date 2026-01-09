@@ -60,7 +60,7 @@ const handleCopy=(copyUrl)=>{
                 className="absolute left-0 my-2 ml-3 w-5"
                 />
                 <input
-                type="url"
+                type="text"
                 placeholder="Enter a Url"
                 value={article.url}
                 onChange={(e)=>setArticle({...
